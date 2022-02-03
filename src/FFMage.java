@@ -17,7 +17,8 @@ class Mage
 
 class BlackMage extends Mage
 {
-	public BlackMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) {
+	public BlackMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) 
+	{
 		super(Name, Level, HP, ATK, DEF, MP, EXP);
 	}
 	
@@ -26,7 +27,8 @@ class BlackMage extends Mage
 class WhiteMage extends Mage
 {
 
-	public WhiteMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) {
+	public WhiteMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) 
+	{
 		super(Name, Level, HP, ATK, DEF, MP, EXP);
 	}
 	
@@ -35,7 +37,8 @@ class WhiteMage extends Mage
 class RedMage extends Mage
 {
 
-	public RedMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) {
+	public RedMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) 
+	{
 		super(Name, Level, HP, ATK, DEF, MP, EXP);
 	}
 	
@@ -44,7 +47,18 @@ class RedMage extends Mage
 class BlueMage extends Mage
 {
 
-	public BlueMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) {
+	public BlueMage(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) 
+	{
+		super(Name, Level, HP, ATK, DEF, MP, EXP);
+	}
+	
+}
+
+class Summoner extends Mage
+{
+
+	public Summoner(String Name, int Level, int HP, int ATK, int DEF, int MP, int EXP) 
+	{
 		super(Name, Level, HP, ATK, DEF, MP, EXP);
 	}
 	
